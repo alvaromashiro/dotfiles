@@ -98,11 +98,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gamexssh="ssh -i 'gamex-api-kp.pem' ubuntu@ec2-3-21-116-217.us-east-2.compute.amazonaws.com"
 alias yugossh="ssh -i 'yugo-api-kp.pem' ubuntu@ec2-3-20-248-93.us-east-2.compute.amazonaws.com"
-###-tns-completion-start-###
-if [ -f C:/Users/alvar/.tnsrc ]; then 
-    source C:/Users/alvar/.tnsrc 
-fi
-###-tns-completion-end-###
-
 
 eval "$(starship init zsh)"
